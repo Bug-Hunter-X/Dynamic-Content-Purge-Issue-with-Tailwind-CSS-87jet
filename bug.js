@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind CSS with a framework like Next.js or Nuxt.js.  The issue stems from how Tailwind's purge process interacts with dynamically generated content. If you have components or content that is rendered after the initial build, Tailwind may not include the necessary CSS classes, leading to styles not being applied.
